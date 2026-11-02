@@ -391,11 +391,11 @@
       "versions": [
         {
           "version": "0.26.3",
-          "publishTimestamp": 1793614527,
+          "publishTimestamp": 1793617177,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/chat-import",
-            "commit": "5ec327f7e2663706655b8f1e447d7a69cb9db083"
+            "commit": "a2358a49a91c12f1469aefa477abf23a443f97b3"
           },
           "engines": {
             "dsh": ">=0.1.5-rc.1 >=0.1.0-rc.6 <0.3.0"
@@ -410,11 +410,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614527,
+          "publishTimestamp": 1793617177,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/comma",
-            "commit": "37eca8b6d697ddc1c1c10bf8d0516f374856c58d"
+            "commit": "0535ea69bb940c05761d889b01ea83f88bbac693"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -432,6 +432,55 @@
           "score": 55
         }
       }
+    },
+    {
+      "name": "mino-creative-studio",
+      "title": "mino-creative-studio",
+      "description": "DSH × Creative Studio — a portable AI image-retouching and video-editing skill pack for DeepSeek Harness: background removal with quality tiers, inpainting retouch, text/logo compositing, batch platform exports, footage review, storyboards and timeline editing. · 美工 + 视频剪辑技能包：抠图/改图/文字/logo/合成/批量规格化 + 素材通览/脚本/剪辑/字幕/配乐/封面。",
+      "author": "Ylight-cpu",
+      "homepage": "https://github.com/Ylight-cpu/dsh-creative-studio",
+      "repository": {
+        "url": "https://github.com/Ylight-cpu/dsh-creative-studio"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "skill",
+          "skills",
+          "image",
+          "matting",
+          "background-removal",
+          "inpainting",
+          "compositing",
+          "video-editing",
+          "ffmpeg",
+          "rembg"
+        ],
+        "category": "skills",
+        "labels": [
+          "verified",
+          "needs-config"
+        ],
+        "sortKeys": {
+          "score": 64
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793617177,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/creative-studio",
+            "commit": "98aac8fa720f8f595493037a5120197d50047acd"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-alpha.1 <0.2.3"
+          }
+        }
+      ]
     },
     {
       "name": "mino-damage-pulse",
@@ -462,11 +511,11 @@
       "versions": [
         {
           "version": "4.3.2",
-          "publishTimestamp": 1793614528,
+          "publishTimestamp": 1793617178,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/damage-pulse",
-            "commit": "5012fe23ae0f462b0fbec69425edfa3329885285"
+            "commit": "38f6d22f011e5290a6b04153150f5ceab38fac98"
           },
           "engines": {
             "dsh": ">=0.1.0-rc.6 <0.2.3"
@@ -502,11 +551,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614530,
+          "publishTimestamp": 1793617180,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/drawio",
-            "commit": "c5d39c7759e1c338cd329f84efa0f69f272b3054"
+            "commit": "f76868ee21c6c96c21fc2b805017a29ac8f6e0d2"
           },
           "engines": {
             "dsh": ">=0.1.0-rc.6 <0.2.3"
@@ -679,11 +728,11 @@
       "versions": [
         {
           "version": "0.6.3",
-          "publishTimestamp": 1793614531,
+          "publishTimestamp": 1793617181,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/knowledge-studio",
-            "commit": "edd1a386cb037e1167dcdf8cbb54e1fe303aa4dc"
+            "commit": "077d8241a261a117c26835ee54c9aee84cd45b7a"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2 <0.3.0-0"
@@ -723,11 +772,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614531,
+          "publishTimestamp": 1793617181,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/mcp-brave-search",
-            "commit": "e6c6c0230e7c9c24da9a475f8a9ddab97c6c5ba8"
+            "commit": "58c7367c28df3a122b70482f41af7314204c5c43"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -769,11 +818,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614531,
+          "publishTimestamp": 1793617181,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/mcp-chrome-devtools",
-            "commit": "04c951d1bb6af33aa82151b052a7b83fa0e5293d"
+            "commit": "3fe33c22def4f510fd00142a77fbb2ad427a0ef4"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -812,11 +861,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614531,
+          "publishTimestamp": 1793617181,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/mcp-github",
-            "commit": "cf9bed432f0d3302b95cba25a1752ef5dc61c710"
+            "commit": "24dfc4d2316ad3bb1d62becc3f590c2c501418dd"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -854,11 +903,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614531,
+          "publishTimestamp": 1793617181,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/mcp-memory",
-            "commit": "335d66e39b5e5ca863dd83a36ccb588f4f04e911"
+            "commit": "157e35b4bcf528d260972adf99a9fb49477b79e4"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -902,11 +951,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614531,
+          "publishTimestamp": 1793617181,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/mcp-paper-search",
-            "commit": "8df94ddb6265707025109a77c08e32c9d4ebe014"
+            "commit": "14b8b8a29e52460e79e44a2765d1bf1020562961"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -944,11 +993,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614531,
+          "publishTimestamp": 1793617181,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/mcp-thinking",
-            "commit": "a7c66681491bc609448778068fa2cee8c375f3f0"
+            "commit": "5459e657493607476a52e35d4455e2264843c886"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -1068,11 +1117,11 @@
       "versions": [
         {
           "version": "0.1.2",
-          "publishTimestamp": 1793614532,
+          "publishTimestamp": 1793617182,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/notes",
-            "commit": "fff9af17fd6ccb81dcda34e49e281d037fb7bc60"
+            "commit": "e246228f84f2933c251f3d8afd64de31342c0472"
           },
           "engines": {
             "dsh": ">=0.1.0-rc.6 <0.2.3"
@@ -1195,11 +1244,11 @@
       "versions": [
         {
           "version": "0.4.4",
-          "publishTimestamp": 1793614535,
+          "publishTimestamp": 1793617185,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/ops",
-            "commit": "2bf74ab30d24111af4a0f0296229c83467c49713"
+            "commit": "b627369cff4810376884e792d31d576bdac6901e"
           },
           "engines": {
             "dsh": ">=0.2.0-rc.2 <0.2.3"
@@ -1498,11 +1547,11 @@
       "versions": [
         {
           "version": "0.19.1",
-          "publishTimestamp": 1793614537,
+          "publishTimestamp": 1793617188,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/rewind",
-            "commit": "918d6f56855bd47dd8a2c1ba817e9abe19492595"
+            "commit": "883e5b928e506e4679c7063b0fd83c3f97833ada"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.1 <0.3.0-0"
@@ -1549,11 +1598,56 @@
       "versions": [
         {
           "version": "2.7.2",
-          "publishTimestamp": 1793614537,
+          "publishTimestamp": 1793617188,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/safety-net",
-            "commit": "2f69407b795cadce1f3ae7fd7116c9a2234010bd"
+            "commit": "3dbbd412099cb315eb921b1a9635706875a4f27e"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-scholar-suite",
+      "title": "mino-scholar-suite",
+      "description": "SkillHub 学术工具链 8 技能的 DeepSeek Harness 捆绑套件:学术图表/去AI味改写/论文润色/文献核验/著作医生/论文改写/引文核验/中文医学公众号,经 skills 通道整包注册,附每技能斜杠命令卡",
+      "author": "docsor1212",
+      "homepage": "https://github.com/docsor1212/dsh-scholar-suite#readme",
+      "repository": {
+        "url": "https://github.com/docsor1212/dsh-scholar-suite"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "cordis",
+          "academic",
+          "paper",
+          "citation",
+          "skillhub",
+          "学术",
+          "论文"
+        ],
+        "category": "skills",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 70
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793617188,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/scholar-suite",
+            "commit": "ba43fb6e1ff5bc1bdec9495671ecb489e10dd01c"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-alpha.1 <0.2.3"
           }
         }
       ]
@@ -1591,11 +1685,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614538,
+          "publishTimestamp": 1793617188,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skill-academic",
-            "commit": "4db829fe61b9372552858024e77f622ad2d038a8"
+            "commit": "6687df9e37bf19d603b5103f5403d22c41c73b5d"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -1637,11 +1731,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614538,
+          "publishTimestamp": 1793617188,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skill-cnki",
-            "commit": "24c9132f31b07914d8b7849e093ae262a351188d"
+            "commit": "926081415af5508609924b3e69583adcc1f94c7d"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -1679,11 +1773,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614538,
+          "publishTimestamp": 1793617188,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skill-commit",
-            "commit": "46b5a488f9332ba27662250491eeb10e0e13df87"
+            "commit": "e6e843b8e9f1bada81ffa10969f10956a839040b"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -1723,11 +1817,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614538,
+          "publishTimestamp": 1793617188,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skill-drama",
-            "commit": "ff83662982fd99e4f8faba06a50ee8e6e6ac750c"
+            "commit": "d5824807831196c8c79e50efbe1f695cea342545"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -1767,11 +1861,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614538,
+          "publishTimestamp": 1793617189,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skill-duanju",
-            "commit": "f3632ffdd212b25b000ae2a08b52b454bc09fc46"
+            "commit": "aeb39f468fa7f987f0058a9bddf8e09e4b47864c"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -1796,11 +1890,11 @@
       "versions": [
         {
           "version": "0.4.13",
-          "publishTimestamp": 1793614538,
+          "publishTimestamp": 1793617189,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skill-explorer",
-            "commit": "8f858f96c713ddaead0705ec66537135ff113c00"
+            "commit": "1843b09af39738152347784df6e217c6afdaf7a3"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.3"
@@ -1849,11 +1943,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614538,
+          "publishTimestamp": 1793617189,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skill-humanizer",
-            "commit": "91b73849b0faeca746af5fada56bcc1537e39f9e"
+            "commit": "76a8d1ca194327a45847cff6b992b3ec4c36cc2a"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -1892,11 +1986,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614538,
+          "publishTimestamp": 1793617189,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skill-mino-release",
-            "commit": "513b1596563ec2fb05ceb765c02fc4f21e8742a5"
+            "commit": "c61accfcc46d47696fb9b8415c3848c47eb6fa1f"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -1938,11 +2032,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614539,
+          "publishTimestamp": 1793617190,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skill-nature",
-            "commit": "431d45cdd6213abfc8ab4a69e28e17eb1912925c"
+            "commit": "7242fb8beea10301bd5c2c41b2380807317756a2"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -1982,11 +2076,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614539,
+          "publishTimestamp": 1793617190,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skill-paperjury",
-            "commit": "a14b0ee11a23369f7dc97fa0b6998359d835ce7e"
+            "commit": "97a7fadbbdcff0777d2deb10335f9f60c7b8b525"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -2026,11 +2120,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614540,
+          "publishTimestamp": 1793617190,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skill-screenwriting",
-            "commit": "c3318389ab106266444987bd880f3d64be0f5f68"
+            "commit": "0f0349e022a833b225a6405e44c6cc9229a6b963"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -2069,11 +2163,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793614540,
+          "publishTimestamp": 1793617191,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skill-script-review",
-            "commit": "49771502d75d3027372473e81cb55725987ca719"
+            "commit": "8ba9f492e99c383fa53a04a5faecce5536b39745"
           },
           "engines": {
             "dsh": ">=0.2.2-alpha.1 <0.2.3"
@@ -2093,11 +2187,11 @@
       "versions": [
         {
           "version": "0.6.1",
-          "publishTimestamp": 1793614538,
+          "publishTimestamp": 1793617189,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skillhub",
-            "commit": "6d533efdb0324d79ab5346b70e72f4e243c9a448"
+            "commit": "ca80ef757b5ccbfbdf7f24332aa5dba9467a0ee4"
           },
           "engines": {
             "dsh": ">=0.1.0-rc.6 <0.2.3"
@@ -2125,11 +2219,11 @@
       "versions": [
         {
           "version": "0.1.72",
-          "publishTimestamp": 1793614540,
+          "publishTimestamp": 1793617191,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skin-market",
-            "commit": "fa61018c80bcfa137a2cd346b50532def9c4d747"
+            "commit": "336989ed9147b0b91ac64563ab66847a0fb7dbc7"
           }
         }
       ],
@@ -2280,11 +2374,11 @@
       "versions": [
         {
           "version": "0.4.13",
-          "publishTimestamp": 1793614540,
+          "publishTimestamp": 1793617192,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/task-board",
-            "commit": "7abdfe4bcc3e7854d88a1cfc71ac992d83d5437a"
+            "commit": "eade0fa7931984fde9981477a20cda0fe8cd48ac"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.3"
@@ -2347,11 +2441,11 @@
       "versions": [
         {
           "version": "0.1.7",
-          "publishTimestamp": 1793614540,
+          "publishTimestamp": 1793617192,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/visualize",
-            "commit": "4f34493f754a9a5fdfabb1fa50919350990f295e"
+            "commit": "1a70ba5b04f9682567a1a3e2a930582fd23d9dfc"
           },
           "engines": {
             "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.1 || ^0.2.1-0"
