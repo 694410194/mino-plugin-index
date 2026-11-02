@@ -16,7 +16,16 @@
           "dsh-plugin",
           "qq",
           "onebot"
-        ]
+        ],
+        "category": "channel",
+        "labels": [
+          "verified",
+          "mutual-qq",
+          "needs-config"
+        ],
+        "sortKeys": {
+          "score": 55
+        }
       },
       "versions": [
         {
@@ -46,7 +55,14 @@
           "deepseek-harness",
           "balance",
           "widget"
-        ]
+        ],
+        "category": "utility",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 58
+        }
       },
       "versions": [
         {
@@ -73,7 +89,14 @@
           "bilibili",
           "humanism",
           "local-first"
-        ]
+        ],
+        "category": "bilibili",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 58
+        }
       },
       "versions": [
         {
@@ -110,7 +133,15 @@
           "live-chat",
           "lite",
           "lightweight"
-        ]
+        ],
+        "category": "bilibili",
+        "labels": [
+          "verified",
+          "needs-config"
+        ],
+        "sortKeys": {
+          "score": 55
+        }
       },
       "versions": [
         {
@@ -140,7 +171,14 @@
           "bilibili",
           "mcp",
           "duty"
-        ]
+        ],
+        "category": "bilibili",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 72
+        }
       },
       "versions": [
         {
@@ -173,7 +211,15 @@
           "bilibili",
           "agent",
           "diary"
-        ]
+        ],
+        "category": "bilibili",
+        "labels": [
+          "verified",
+          "optional"
+        ],
+        "sortKeys": {
+          "score": 55
+        }
       },
       "versions": [
         {
@@ -244,7 +290,16 @@
           "移动端",
           "dsh移动端",
           "手机远程"
-        ]
+        ],
+        "category": "channel",
+        "labels": [
+          "verified",
+          "mutual-qq",
+          "upstream-risk"
+        ],
+        "sortKeys": {
+          "score": 52
+        }
       },
       "versions": [
         {
@@ -273,7 +328,16 @@
             "commit": "de155b5781eb86849514ac18b026ba2494785b68"
           }
         }
-      ]
+      ],
+      "metadata": {
+        "category": "utility",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 68
+        }
+      }
     },
     {
       "name": "mino-fish-memory",
@@ -289,7 +353,15 @@
           "memory",
           "long-term-memory",
           "ai-companion"
-        ]
+        ],
+        "category": "memory",
+        "labels": [
+          "verified",
+          "official"
+        ],
+        "sortKeys": {
+          "score": 82
+        }
       },
       "versions": [
         {
@@ -344,7 +416,17 @@
           "imessage",
           "matrix",
           "ai-office"
-        ]
+        ],
+        "category": "channel",
+        "labels": [
+          "verified",
+          "mutual-qq",
+          "upstream-risk",
+          "needs-config"
+        ],
+        "sortKeys": {
+          "score": 58
+        }
       },
       "versions": [
         {
@@ -377,7 +459,17 @@
             "commit": "91af53122c29fcf2e7a050e6ec55df1cbad2d1e6"
           }
         }
-      ]
+      ],
+      "metadata": {
+        "category": "media",
+        "labels": [
+          "verified",
+          "needs-config"
+        ],
+        "sortKeys": {
+          "score": 60
+        }
+      }
     },
     {
       "name": "mino-meme",
@@ -402,7 +494,14 @@
           "meme",
           "emoticon",
           "sticker"
-        ]
+        ],
+        "category": "media",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 74
+        }
       },
       "versions": [
         {
@@ -431,7 +530,15 @@
           "dsh-plugin",
           "mood",
           "ai-companion"
-        ]
+        ],
+        "category": "persona",
+        "labels": [
+          "verified",
+          "official"
+        ],
+        "sortKeys": {
+          "score": 76
+        }
       },
       "versions": [
         {
@@ -466,7 +573,14 @@
           "video-recap",
           "video-production",
           "ai-agents"
-        ]
+        ],
+        "category": "roleplay",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 58
+        }
       },
       "versions": [
         {
@@ -499,7 +613,14 @@
           "skin",
           "webgpu",
           "ocean"
-        ]
+        ],
+        "category": "media",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 66
+        }
       },
       "versions": [
         {
@@ -538,7 +659,15 @@
           "memory",
           "roleplay",
           "system-prompt"
-        ]
+        ],
+        "category": "persona",
+        "labels": [
+          "verified",
+          "official"
+        ],
+        "sortKeys": {
+          "score": 88
+        }
       },
       "versions": [
         {
@@ -567,7 +696,15 @@
           "dsh-plugin",
           "desktop-pet",
           "agent-companion"
-        ]
+        ],
+        "category": "desktop",
+        "labels": [
+          "verified",
+          "optional"
+        ],
+        "sortKeys": {
+          "score": 62
+        }
       },
       "versions": [
         {
@@ -600,7 +737,15 @@
           "screenshot",
           "vision",
           "windows"
-        ]
+        ],
+        "category": "agent",
+        "labels": [
+          "verified",
+          "high-risk"
+        ],
+        "sortKeys": {
+          "score": 55
+        }
       },
       "versions": [
         {
@@ -630,7 +775,16 @@
           "qq",
           "qqbot",
           "remote-control"
-        ]
+        ],
+        "category": "channel",
+        "labels": [
+          "verified",
+          "mutual-qq",
+          "needs-config"
+        ],
+        "sortKeys": {
+          "score": 55
+        }
       },
       "versions": [
         {
@@ -657,7 +811,16 @@
         "keywords": [
           "deepseek-harness",
           "dsh-plugin"
-        ]
+        ],
+        "category": "channel",
+        "labels": [
+          "verified",
+          "mutual-qq",
+          "needs-config"
+        ],
+        "sortKeys": {
+          "score": 72
+        }
       },
       "versions": [
         {
@@ -700,7 +863,17 @@
           "plugin",
           "chatbot",
           "im"
-        ]
+        ],
+        "category": "channel",
+        "labels": [
+          "verified",
+          "mutual-qq",
+          "upstream-risk",
+          "needs-config"
+        ],
+        "sortKeys": {
+          "score": 55
+        }
       },
       "versions": [
         {
@@ -728,7 +901,15 @@
           "initiative",
           "proactive",
           "ai-companion"
-        ]
+        ],
+        "category": "persona",
+        "labels": [
+          "verified",
+          "official"
+        ],
+        "sortKeys": {
+          "score": 74
+        }
       },
       "versions": [
         {
@@ -769,7 +950,14 @@
           "bilibili",
           "bullet-comment",
           "meme"
-        ]
+        ],
+        "category": "utility",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 58
+        }
       },
       "versions": [
         {
@@ -807,7 +995,16 @@
             "dsh": "^0.2.1-alpha.2"
           }
         }
-      ]
+      ],
+      "metadata": {
+        "category": "agent",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 76
+        }
+      }
     },
     {
       "name": "mino-tavern",
@@ -821,7 +1018,15 @@
           "tavern",
           "roleplay",
           "trpg"
-        ]
+        ],
+        "category": "roleplay",
+        "labels": [
+          "verified",
+          "heavy"
+        ],
+        "sortKeys": {
+          "score": 70
+        }
       },
       "versions": [
         {
@@ -855,7 +1060,15 @@
           "whisper",
           "voice",
           "dsh-plugin"
-        ]
+        ],
+        "category": "media",
+        "labels": [
+          "verified",
+          "needs-config"
+        ],
+        "sortKeys": {
+          "score": 70
+        }
       },
       "versions": [
         {
@@ -886,7 +1099,15 @@
           "desktop-pet",
           "whale-girl",
           "cute"
-        ]
+        ],
+        "category": "desktop",
+        "labels": [
+          "verified",
+          "optional"
+        ],
+        "sortKeys": {
+          "score": 62
+        }
       },
       "versions": [
         {
@@ -903,5 +1124,122 @@
         }
       ]
     }
-  ]
+  ],
+  "metadata": {
+    "categories": {
+      "persona": {
+        "title": {
+          "en": "Persona",
+          "zh-cn": "人格"
+        }
+      },
+      "memory": {
+        "title": {
+          "en": "Memory",
+          "zh-cn": "记忆"
+        }
+      },
+      "channel": {
+        "title": {
+          "en": "Channels",
+          "zh-cn": "渠道"
+        }
+      },
+      "media": {
+        "title": {
+          "en": "Media",
+          "zh-cn": "媒体"
+        }
+      },
+      "roleplay": {
+        "title": {
+          "en": "Roleplay",
+          "zh-cn": "角色扮演"
+        }
+      },
+      "agent": {
+        "title": {
+          "en": "Agents",
+          "zh-cn": "智能体"
+        }
+      },
+      "bilibili": {
+        "title": {
+          "en": "Bilibili",
+          "zh-cn": "B 站"
+        }
+      },
+      "utility": {
+        "title": {
+          "en": "Utility",
+          "zh-cn": "工具"
+        }
+      },
+      "desktop": {
+        "title": {
+          "en": "Desktop",
+          "zh-cn": "桌面"
+        }
+      }
+    },
+    "labels": {
+      "verified": {
+        "title": {
+          "en": "Mino-verified",
+          "zh-cn": "Mino 实测"
+        }
+      },
+      "official": {
+        "title": {
+          "en": "Official",
+          "zh-cn": "官方本体"
+        }
+      },
+      "heavy": {
+        "title": {
+          "en": "Heavy toolset",
+          "zh-cn": "重型工具面"
+        }
+      },
+      "high-risk": {
+        "title": {
+          "en": "High risk",
+          "zh-cn": "高危能力"
+        }
+      },
+      "mutual-qq": {
+        "title": {
+          "en": "QQ channel — pick one",
+          "zh-cn": "QQ 通道互斥"
+        }
+      },
+      "upstream-risk": {
+        "title": {
+          "en": "Upstream issues",
+          "zh-cn": "上游有隐患"
+        }
+      },
+      "needs-config": {
+        "title": {
+          "en": "Needs setup",
+          "zh-cn": "需配置"
+        }
+      },
+      "optional": {
+        "title": {
+          "en": "Optional",
+          "zh-cn": "锦上添花"
+        }
+      }
+    },
+    "sortKeys": {
+      "score": {
+        "title": {
+          "en": "Mino score",
+          "zh-cn": "Mino 评分"
+        },
+        "order": "desc"
+      }
+    }
+  }
 }
