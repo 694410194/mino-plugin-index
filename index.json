@@ -379,16 +379,23 @@
           "jsonl",
           "migration",
           "transcript"
-        ]
+        ],
+        "category": "utility",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 60
+        }
       },
       "versions": [
         {
           "version": "0.26.3",
-          "publishTimestamp": 1793604654,
+          "publishTimestamp": 1793607225,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/chat-import",
-            "commit": "2caa9f1919a52adec1325bf789f8f2a8b629521f"
+            "commit": "defa17f62c939ddf920f010857c89900c1d38cea"
           },
           "engines": {
             "dsh": ">=0.1.5-rc.1 >=0.1.0-rc.6 <0.3.0"
@@ -412,19 +419,27 @@
           "balance-monitor",
           "damage-animation",
           "cache-aware"
-        ]
+        ],
+        "category": "utility",
+        "labels": [
+          "verified",
+          "optional"
+        ],
+        "sortKeys": {
+          "score": 62
+        }
       },
       "versions": [
         {
           "version": "4.3.2",
-          "publishTimestamp": 1793604655,
+          "publishTimestamp": 1793607226,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/damage-pulse",
-            "commit": "c9d3c6509a4eea9e2aa0f7423fbb58f725ecd9f2"
+            "commit": "976eb45d7c57942d0f22bb9cfb62c8ce08a88dd6"
           },
           "engines": {
-            "dsh": "^0.1.0-rc.5 || ^0.1.1-rc.2 || ^0.1.2-alpha.1 || ^0.1.3-alpha.1 || ^0.1.5-alpha.1 || ^0.1.6-alpha.1 || ^0.1.7-rc.2 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5"
+            "dsh": ">=0.1.0-rc.6 <0.2.3"
           }
         }
       ]
@@ -445,19 +460,26 @@
           "diagram",
           "mxgraph",
           "diagrams.net"
-        ]
+        ],
+        "category": "media",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 68
+        }
       },
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1793604657,
+          "publishTimestamp": 1793607228,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/drawio",
-            "commit": "0b8555c6ab56c5b9e9abe78963a6d24496053528"
+            "commit": "01a4d377dbcb221ebc231cb2a71be263fd64b705"
           },
           "engines": {
-            "dsh": "0.1.0-rc.6"
+            "dsh": ">=0.1.0-rc.6 <0.2.3"
           }
         }
       ]
@@ -612,19 +634,246 @@
           "studio",
           "knowledge-base",
           "ladybugdb"
-        ]
+        ],
+        "category": "agent",
+        "labels": [
+          "verified",
+          "upstream-risk",
+          "needs-config",
+          "heavy"
+        ],
+        "sortKeys": {
+          "score": 35
+        }
       },
       "versions": [
         {
           "version": "0.6.3",
-          "publishTimestamp": 1793604658,
+          "publishTimestamp": 1793607229,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/knowledge-studio",
-            "commit": "e6e3867127b9f7d093dde5b7e3d7bdb7e1dc0727"
+            "commit": "1502ed808bf2df19c39c8e0197fb71a3ed6203d7"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-mcp-brave-search",
+      "title": "mino-mcp-brave-search",
+      "description": "MCP 接入包：Brave Search MCP 服务器（stdio/npx，需 BRAVE_API_KEY，未配置时行自动停用）。安装即挂载一条 dsh-mcp-client 配置行。",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTQiIGZpbGw9IiNmYjU0MmIiLz4KICA8cGF0aCBkPSJNMjQgMjJoLTZ2MTBoNnY2aDR2LTZoOHY2aDR2LTZoNlYyMmgtNnYtNmgtNHY2aC04di02aC00djZ6IiBmaWxsPSIjZmZmIi8+CiAgPHBhdGggZD0iTTMwIDQ0aDR2OGEyIDIgMCAwIDEtNCAwdi04eiIgZmlsbD0iI2ZmZiIvPgo8L3N2Zz4K",
+      "homepage": "https://github.com/694410194/mino-plugins/tree/main/packages/mcp-brave-search#readme",
+      "repository": {
+        "url": "https://github.com/694410194/mino-plugins",
+        "directory": "packages/mcp-brave-search"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "mcp",
+          "brave",
+          "search"
+        ],
+        "category": "mcp",
+        "labels": [
+          "verified",
+          "needs-config",
+          "upstream-risk"
+        ],
+        "sortKeys": {
+          "score": 58
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793607229,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/mcp-brave-search",
+            "commit": "b0cbdf5b6d748b0b5be33dea01838950b2ba9d7b"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-alpha.1 <0.2.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-mcp-chrome-devtools",
+      "title": "mino-mcp-chrome-devtools",
+      "description": "MCP 接入包：Chrome DevTools MCP 服务器（stdio/npx，控制本机 Chrome：导航/性能/网络/截图）。安装即挂载一条 dsh-mcp-client 配置行。",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTQiIGZpbGw9IiMwZWE1ZTkiLz4KICA8cGF0aCBkPSJNMjQgMjJoLTZ2MTBoNnY2aDR2LTZoOHY2aDR2LTZoNlYyMmgtNnYtNmgtNHY2aC04di02aC00djZ6IiBmaWxsPSIjZmZmIi8+CiAgPHBhdGggZD0iTTMwIDQ0aDR2OGEyIDIgMCAwIDEtNCAwdi04eiIgZmlsbD0iI2ZmZiIvPgo8L3N2Zz4K",
+      "homepage": "https://github.com/694410194/mino-plugins/tree/main/packages/mcp-chrome-devtools#readme",
+      "repository": {
+        "url": "https://github.com/694410194/mino-plugins",
+        "directory": "packages/mcp-chrome-devtools"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "mcp",
+          "chrome",
+          "devtools",
+          "browser"
+        ],
+        "category": "mcp",
+        "labels": [
+          "verified",
+          "needs-config",
+          "high-risk",
+          "heavy"
+        ],
+        "sortKeys": {
+          "score": 66
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793607229,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/mcp-chrome-devtools",
+            "commit": "67caefdc86590619be093e304cb442f75978cd33"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-alpha.1 <0.2.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-mcp-github",
+      "title": "mino-mcp-github",
+      "description": "MCP 接入包：GitHub 官方远端 MCP 服务器（streamable-http，需 GITHUB_TOKEN，未配置时行自动停用）。安装即挂载一条 dsh-mcp-client 配置行。",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTQiIGZpbGw9IiMyNDI5MmYiLz4KICA8cGF0aCBkPSJNMjQgMjJoLTZ2MTBoNnY2aDR2LTZoOHY2aDR2LTZoNlYyMmgtNnYtNmgtNHY2aC04di02aC00djZ6IiBmaWxsPSIjZmZmIi8+CiAgPHBhdGggZD0iTTMwIDQ0aDR2OGEyIDIgMCAwIDEtNCAwdi04eiIgZmlsbD0iI2ZmZiIvPgo8L3N2Zz4K",
+      "homepage": "https://github.com/694410194/mino-plugins/tree/main/packages/mcp-github#readme",
+      "repository": {
+        "url": "https://github.com/694410194/mino-plugins",
+        "directory": "packages/mcp-github"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "mcp",
+          "github",
+          "streamable-http"
+        ],
+        "category": "mcp",
+        "labels": [
+          "verified",
+          "needs-config"
+        ],
+        "sortKeys": {
+          "score": 60
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793607229,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/mcp-github",
+            "commit": "9cb2eca938c50a7cd6b13d6d4f5c454fb6509fc8"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-alpha.1 <0.2.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-mcp-memory",
+      "title": "mino-mcp-memory",
+      "description": "MCP 接入包：官方 memory 知识图谱服务器（stdio/npx，无需密钥）。安装即挂载一条 dsh-mcp-client 配置行。",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTQiIGZpbGw9IiM0ZDZiZmUiLz4KICA8cGF0aCBkPSJNMjQgMjJoLTZ2MTBoNnY2aDR2LTZoOHY2aDR2LTZoNlYyMmgtNnYtNmgtNHY2aC04di02aC00djZ6IiBmaWxsPSIjZmZmIi8+CiAgPHBhdGggZD0iTTMwIDQ0aDR2OGEyIDIgMCAwIDEtNCAwdi04eiIgZmlsbD0iI2ZmZiIvPgo8L3N2Zz4K",
+      "homepage": "https://github.com/694410194/mino-plugins/tree/main/packages/mcp-memory#readme",
+      "repository": {
+        "url": "https://github.com/694410194/mino-plugins",
+        "directory": "packages/mcp-memory"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "mcp",
+          "memory",
+          "knowledge-graph"
+        ],
+        "category": "mcp",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 72
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793607229,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/mcp-memory",
+            "commit": "a8f3e858f7c4afcb3b26512a9051a56dd45f5cfb"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-alpha.1 <0.2.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-mcp-thinking",
+      "title": "mino-mcp-thinking",
+      "description": "MCP 接入包：官方 sequential-thinking 逐步思考服务器（stdio/npx，无需密钥）。安装即挂载一条 dsh-mcp-client 配置行。",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTQiIGZpbGw9IiM4YjVjZjYiLz4KICA8cGF0aCBkPSJNMjQgMjJoLTZ2MTBoNnY2aDR2LTZoOHY2aDR2LTZoNlYyMmgtNnYtNmgtNHY2aC04di02aC00djZ6IiBmaWxsPSIjZmZmIi8+CiAgPHBhdGggZD0iTTMwIDQ0aDR2OGEyIDIgMCAwIDEtNCAwdi04eiIgZmlsbD0iI2ZmZiIvPgo8L3N2Zz4K",
+      "homepage": "https://github.com/694410194/mino-plugins/tree/main/packages/mcp-thinking#readme",
+      "repository": {
+        "url": "https://github.com/694410194/mino-plugins",
+        "directory": "packages/mcp-thinking"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "mcp",
+          "sequential-thinking",
+          "reasoning"
+        ],
+        "category": "mcp",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 70
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793607229,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/mcp-thinking",
+            "commit": "89b486c468daa175601578f55de7e9e6960f4324"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-alpha.1 <0.2.3"
           }
         }
       ]
@@ -729,19 +978,26 @@
           "notes",
           "markdown",
           "ai-agent"
-        ]
+        ],
+        "category": "utility",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 62
+        }
       },
       "versions": [
         {
           "version": "0.1.2",
-          "publishTimestamp": 1793604659,
+          "publishTimestamp": 1793607230,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/notes",
-            "commit": "3a6f9fc7959c37bfaf2c312d53d310802252b5cb"
+            "commit": "70ad6a9b272ef8c5806b19f159d0652767927f93"
           },
           "engines": {
-            "dsh": "^0.1.0-rc.6"
+            "dsh": ">=0.1.0-rc.6 <0.2.3"
           }
         }
       ]
@@ -849,19 +1105,26 @@
           "dsh-plugin",
           "deepseek-harness",
           "repository-tools"
-        ]
+        ],
+        "category": "utility",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 74
+        }
       },
       "versions": [
         {
           "version": "0.4.4",
-          "publishTimestamp": 1793604662,
+          "publishTimestamp": 1793607233,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/ops",
-            "commit": "6fc83ce9f6a795bd24ae88f73914273e51c5c5d9"
+            "commit": "e2b0410277df122151ba4f8b67ecde3d5423b852"
           },
           "engines": {
-            "dsh": ">=0.2.0-rc.2 <0.2.2-0"
+            "dsh": ">=0.2.0-rc.2 <0.2.3"
           }
         }
       ]
@@ -1145,16 +1408,23 @@
           "rewind",
           "session",
           "ui"
-        ]
+        ],
+        "category": "utility",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 58
+        }
       },
       "versions": [
         {
           "version": "0.19.1",
-          "publishTimestamp": 1793604664,
+          "publishTimestamp": 1793607236,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/rewind",
-            "commit": "f941e5b7ccb2b2cec9306e8791a502294025a69e"
+            "commit": "1adbbae49de07e3e2383352098e322cb0e245482"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.1 <0.3.0-0"
@@ -1188,16 +1458,66 @@
           "plugin",
           "safety",
           "security"
-        ]
+        ],
+        "category": "utility",
+        "labels": [
+          "verified",
+          "high-risk"
+        ],
+        "sortKeys": {
+          "score": 68
+        }
       },
       "versions": [
         {
           "version": "2.7.2",
-          "publishTimestamp": 1793604664,
+          "publishTimestamp": 1793607236,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/safety-net",
-            "commit": "7b5e72d7f0cf32858960b5766353a8fce099dc71"
+            "commit": "89f7ceddf7171b06d95c21da230e41f0d3d8b076"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-skill-commit",
+      "title": "mino-skill-commit",
+      "description": "Mino 精选 skill 包：规范中文 git commit message 写作技能（type/scope/subject/body 约定），安装即注入 ctx.skills。",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTQiIGZpbGw9IiMxNmEzNGEiLz4KICA8cGF0aCBkPSJNMjQgMjJoLTZ2MTBoNnY2aDR2LTZoOHY2aDR2LTZoNlYyMmgtNnYtNmgtNHY2aC04di02aC00djZ6IiBmaWxsPSIjZmZmIi8+CiAgPHBhdGggZD0iTTMwIDQ0aDR2OGEyIDIgMCAwIDEtNCAwdi04eiIgZmlsbD0iI2ZmZiIvPgo8L3N2Zz4K",
+      "homepage": "https://github.com/694410194/mino-plugins/tree/main/packages/skill-commit#readme",
+      "repository": {
+        "url": "https://github.com/694410194/mino-plugins",
+        "directory": "packages/skill-commit"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "dsh-skill",
+          "skills",
+          "git-commit"
+        ],
+        "category": "skills",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 60
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793607236,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/skill-commit",
+            "commit": "201af92fea96e5cfb82275c8eb3e9bce6653f5bf"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-alpha.1 <0.2.3"
           }
         }
       ]
@@ -1219,14 +1539,66 @@
       "versions": [
         {
           "version": "0.4.13",
-          "publishTimestamp": 1793604664,
+          "publishTimestamp": 1793607236,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skill-explorer",
-            "commit": "642ed71950d7ef571fa771569fc8b49fa6236877"
+            "commit": "646248fcec444dde6c85d034409f42deb2bf8c4f"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.3"
+          }
+        }
+      ],
+      "metadata": {
+        "category": "utility",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 58
+        }
+      }
+    },
+    {
+      "name": "mino-skill-mino-release",
+      "title": "mino-skill-mino-release",
+      "description": "Mino 精选 skill 包：Mino 部署与发布速查技能（sync.sh 上线、nginx 站点、插件 git 通道、索引再生管线）。",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+CiAgPHJlY3QgeD0iNCIgeT0iNCIgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiByeD0iMTQiIGZpbGw9IiNkOTc3MDYiLz4KICA8cGF0aCBkPSJNMjQgMjJoLTZ2MTBoNnY2aDR2LTZoOHY2aDR2LTZoNlYyMmgtNnYtNmgtNHY2aC04di02aC00djZ6IiBmaWxsPSIjZmZmIi8+CiAgPHBhdGggZD0iTTMwIDQ0aDR2OGEyIDIgMCAwIDEtNCAwdi04eiIgZmlsbD0iI2ZmZiIvPgo8L3N2Zz4K",
+      "homepage": "https://github.com/694410194/mino-plugins/tree/main/packages/skill-mino-release#readme",
+      "repository": {
+        "url": "https://github.com/694410194/mino-plugins",
+        "directory": "packages/skill-mino-release"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "dsh-skill",
+          "skills",
+          "deploy",
+          "release"
+        ],
+        "category": "skills",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 60
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793607236,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/skill-mino-release",
+            "commit": "5a7fcc9e50053cd93d6084354f39a163d66757a0"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-alpha.1 <0.2.3"
           }
         }
       ]
@@ -1243,17 +1615,26 @@
       "versions": [
         {
           "version": "0.6.1",
-          "publishTimestamp": 1793604665,
+          "publishTimestamp": 1793607236,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skillhub",
-            "commit": "c9c5ee2e110fa6aaaf57073c19b05342b53dd47e"
+            "commit": "e5b84898afd1f220df3a2d0c8bdb0685f3750fc0"
           },
           "engines": {
-            "dsh": "0.2.0-rc.2 || 0.2.1-rc.2"
+            "dsh": ">=0.1.0-rc.6 <0.2.3"
           }
         }
-      ]
+      ],
+      "metadata": {
+        "category": "agent",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 76
+        }
+      }
     },
     {
       "name": "mino-skin-market",
@@ -1266,14 +1647,24 @@
       "versions": [
         {
           "version": "0.1.72",
-          "publishTimestamp": 1793604665,
+          "publishTimestamp": 1793607236,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/skin-market",
-            "commit": "ed59dfbe415e279a2db3650345764137c38ea71b"
+            "commit": "46f711cfd8313c5d83bee61ed1568bf7d2c6156e"
           }
         }
-      ]
+      ],
+      "metadata": {
+        "category": "desktop",
+        "labels": [
+          "verified",
+          "optional"
+        ],
+        "sortKeys": {
+          "score": 58
+        }
+      }
     },
     {
       "name": "mino-speak-up",
@@ -1411,17 +1802,26 @@
       "versions": [
         {
           "version": "0.4.13",
-          "publishTimestamp": 1793604665,
+          "publishTimestamp": 1793607236,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/task-board",
-            "commit": "37fa7481541e0c0098160e9719a6ae97f1b65915"
+            "commit": "f4ec8fcc6d20038d737975df218ab78ca4b522a8"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.3"
           }
         }
-      ]
+      ],
+      "metadata": {
+        "category": "agent",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 70
+        }
+      }
     },
     {
       "name": "mino-tavern",
@@ -1469,17 +1869,26 @@
       "versions": [
         {
           "version": "0.1.7",
-          "publishTimestamp": 1793604665,
+          "publishTimestamp": 1793607237,
           "source": {
             "type": "git",
             "url": "https://mino.baby/git/visualize",
-            "commit": "4017a42163c61e6c1f29431619afe43f7b68d6cb"
+            "commit": "9b6c597ef303eb45a566bd7dd7f0dae85c42d145"
           },
           "engines": {
             "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.1 || ^0.2.1-0"
           }
         }
-      ]
+      ],
+      "metadata": {
+        "category": "media",
+        "labels": [
+          "verified"
+        ],
+        "sortKeys": {
+          "score": 66
+        }
+      }
     },
     {
       "name": "mino-voice",
@@ -1565,5 +1974,134 @@
         }
       ]
     }
-  ]
+  ],
+  "metadata": {
+    "categories": {
+      "persona": {
+        "title": {
+          "en": "Persona",
+          "zh-cn": "人格"
+        }
+      },
+      "memory": {
+        "title": {
+          "en": "Memory",
+          "zh-cn": "记忆"
+        }
+      },
+      "channel": {
+        "title": {
+          "en": "Channels",
+          "zh-cn": "渠道"
+        }
+      },
+      "media": {
+        "title": {
+          "en": "Media",
+          "zh-cn": "媒体"
+        }
+      },
+      "roleplay": {
+        "title": {
+          "en": "Roleplay",
+          "zh-cn": "角色扮演"
+        }
+      },
+      "agent": {
+        "title": {
+          "en": "Agents",
+          "zh-cn": "智能体"
+        }
+      },
+      "bilibili": {
+        "title": {
+          "en": "Bilibili",
+          "zh-cn": "B 站"
+        }
+      },
+      "utility": {
+        "title": {
+          "en": "Utility",
+          "zh-cn": "工具"
+        }
+      },
+      "desktop": {
+        "title": {
+          "en": "Desktop",
+          "zh-cn": "桌面"
+        }
+      },
+      "mcp": {
+        "title": {
+          "en": "MCP servers",
+          "zh-cn": "MCP 服务器"
+        }
+      },
+      "skills": {
+        "title": {
+          "en": "Skills",
+          "zh-cn": "技能"
+        }
+      }
+    },
+    "labels": {
+      "verified": {
+        "title": {
+          "en": "Mino-verified",
+          "zh-cn": "Mino 实测"
+        }
+      },
+      "official": {
+        "title": {
+          "en": "Official",
+          "zh-cn": "官方本体"
+        }
+      },
+      "heavy": {
+        "title": {
+          "en": "Heavy toolset",
+          "zh-cn": "重型工具面"
+        }
+      },
+      "high-risk": {
+        "title": {
+          "en": "High risk",
+          "zh-cn": "高危能力"
+        }
+      },
+      "mutual-qq": {
+        "title": {
+          "en": "QQ channel — pick one",
+          "zh-cn": "QQ 通道互斥"
+        }
+      },
+      "upstream-risk": {
+        "title": {
+          "en": "Upstream issues",
+          "zh-cn": "上游有隐患"
+        }
+      },
+      "needs-config": {
+        "title": {
+          "en": "Needs setup",
+          "zh-cn": "需配置"
+        }
+      },
+      "optional": {
+        "title": {
+          "en": "Optional",
+          "zh-cn": "锦上添花"
+        }
+      }
+    },
+    "sortKeys": {
+      "score": {
+        "title": {
+          "en": "Mino score",
+          "zh-cn": "Mino 评分"
+        },
+        "order": "desc"
+      }
+    }
+  }
 }
