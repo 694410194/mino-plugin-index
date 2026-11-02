@@ -340,6 +340,129 @@
       }
     },
     {
+      "name": "mino-chat-import",
+      "title": "mino-chat-import",
+      "description": "Import conversation history from 25+ AI coding agents into DeepSeek Harness as resumable sessions — tool calls, reasoning and results kept intact, with reverse export. | 把 25+ AI 编程 Agent 的聊天记录导入 DeepSeek Harness 继续对话，保留工具调用、推理与结果，支持反向导出。",
+      "icon": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBzdGFuZGFsb25lPSJubyI/PjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+PHN2ZyB0PSIxNzg2NjM1OTMyMzg5IiBjbGFzcz0iaWNvbiIgdmlld0JveD0iMCAwIDEwMjQgMTAyNCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHAtaWQ9IjYwMTEiIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCI+PHBhdGggZD0iTTkwNS4zMDkwOTEgNjI4LjM2MzYzNmMtMjcuOTI3MjczIDAtNDYuNTQ1NDU1IDE4LjYxODE4Mi00Ni41NDU0NTUgNDYuNTQ1NDU1djIyMy40MTgxODJIMTY1LjIzNjM2NFYxMjUuNjcyNzI3aDIwMC4xNDU0NTRjMjcuOTI3MjczIDAgNDYuNTQ1NDU1LTE4LjYxODE4MiA0Ni41NDU0NTUtNDYuNTQ1NDU0cy0xOC42MTgxODItNDYuNTQ1NDU1LTQ2LjU0NTQ1NS00Ni41NDU0NTVIMTE4LjY5MDkwOWMtMjcuOTI3MjczIDAtNDYuNTQ1NDU1IDE4LjYxODE4Mi00Ni41NDU0NTQgNDYuNTQ1NDU1djg2NS43NDU0NTRjMCAyNy45MjcyNzMgMTguNjE4MTgyIDQ2LjU0NTQ1NSA0Ni41NDU0NTQgNDYuNTQ1NDU1aDc4Ni42MTgxODJjMjcuOTI3MjczIDAgNDYuNTQ1NDU1LTE4LjYxODE4MiA0Ni41NDU0NTQtNDYuNTQ1NDU1di0yNjkuOTYzNjM2YzAtMjcuOTI3MjczLTE4LjYxODE4Mi00Ni41NDU0NTUtNDYuNTQ1NDU0LTQ2LjU0NTQ1NXoiIGZpbGw9IiMxMjk2ZGIiIHAtaWQ9IjYwMTIiPjwvcGF0aD48cGF0aCBkPSJNNTU2LjIxODE4MiA1NTguNTQ1NDU1aDM0OS4wOTA5MDl2LTkzLjA5MDkxaC0yNjkuOTYzNjM2bDI5My4yMzYzNjMtMjY5Ljk2MzYzNi02NS4xNjM2MzYtNjUuMTYzNjM2LTMwNy4yIDI4My45MjcyNzJWMTE2LjM2MzYzNmgtOTMuMDkwOTA5VjU1OC41NDU0NTVoNC42NTQ1NDV6IiBmaWxsPSIjMTI5NmRiIiBwLWlkPSI2MDEzIj48L3BhdGg+PC9zdmc+",
+      "author": "Nwflower",
+      "homepage": "https://github.com/Nwflower/dsh-chat-import",
+      "repository": {
+        "url": "https://github.com/Nwflower/dsh-chat-import"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh-plugin",
+          "dsh",
+          "claude-code",
+          "codex",
+          "chatgpt",
+          "cursor",
+          "gemini",
+          "antigravity",
+          "reasonix",
+          "pi-coding-agent",
+          "opencode",
+          "zcode",
+          "grokbuild",
+          "openclaw",
+          "hermes",
+          "kimi",
+          "kimi-cli",
+          "qoder",
+          "qoder-cli",
+          "workbuddy",
+          "trae",
+          "trae-work",
+          "sqlite",
+          "import",
+          "jsonl",
+          "migration",
+          "transcript"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.26.3",
+          "publishTimestamp": 1793604654,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/chat-import",
+            "commit": "2caa9f1919a52adec1325bf789f8f2a8b629521f"
+          },
+          "engines": {
+            "dsh": ">=0.1.5-rc.1 >=0.1.0-rc.6 <0.3.0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-damage-pulse",
+      "title": "mino-damage-pulse",
+      "description": "DeepSeek Harness balance monitor with a whale-girl companion and cache-aware damage animations for every token charge.",
+      "homepage": "https://github.com/wssfk12138/dsh-damage-pulse#readme",
+      "repository": {
+        "url": "https://github.com/wssfk12138/dsh-damage-pulse"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh-plugin",
+          "token-monitor",
+          "balance-monitor",
+          "damage-animation",
+          "cache-aware"
+        ]
+      },
+      "versions": [
+        {
+          "version": "4.3.2",
+          "publishTimestamp": 1793604655,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/damage-pulse",
+            "commit": "c9d3c6509a4eea9e2aa0f7423fbb58f725ecd9f2"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.5 || ^0.1.1-rc.2 || ^0.1.2-alpha.1 || ^0.1.3-alpha.1 || ^0.1.5-alpha.1 || ^0.1.6-alpha.1 || ^0.1.7-rc.2 || 0.2.0-rc.2 || 0.2.1-rc.1 || 0.2.1-rc.2 || 0.2.1-rc.3 || 0.2.1-rc.4 || 0.2.1-rc.5"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-drawio",
+      "title": "mino-drawio",
+      "description": "DSH drawio 插件：agent 画图工具（drawio_validate / drawio_render / drawio_template）+ 侧边栏「画板」——mxfile XML 实时渲染为 SVG、导出 PNG、写入工作区。核心翻译器为纯 TS 零依赖，宿主与浏览器共用。",
+      "repository": {
+        "url": "https://github.com/jean3690/dsh-drawio"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "drawio",
+          "diagram",
+          "mxgraph",
+          "diagrams.net"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1793604657,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/drawio",
+            "commit": "0b8555c6ab56c5b9e9abe78963a6d24496053528"
+          },
+          "engines": {
+            "dsh": "0.1.0-rc.6"
+          }
+        }
+      ]
+    },
+    {
       "name": "mino-fish-memory",
       "title": "mino-fish-memory",
       "description": "给 DSH 里的会话一份会淡忘的长期记忆，每条都带时间。",
@@ -472,6 +595,41 @@
       }
     },
     {
+      "name": "mino-knowledge-studio",
+      "title": "mino-knowledge-studio",
+      "description": "A workspace-native creation studio for DeepSeek Harness, with local source retrieval and AI-powered documents, learning tools, audio, and video.",
+      "homepage": "https://github.com/ECNU/EduWork/tree/main/packages/dsh-knowledge-studio#readme",
+      "repository": {
+        "url": "https://github.com/ECNU/EduWork",
+        "directory": "packages/dsh-knowledge-studio"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "workspace",
+          "studio",
+          "knowledge-base",
+          "ladybugdb"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.6.3",
+          "publishTimestamp": 1793604658,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/knowledge-studio",
+            "commit": "e6e3867127b9f7d093dde5b7e3d7bdb7e1dc0727"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.2 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
       "name": "mino-meme",
       "title": {
         "en": "Memes",
@@ -548,6 +706,42 @@
             "type": "git",
             "url": "https://mino.baby/git/mood",
             "commit": "cbe0a70a3f61b6dfafeaa0309bbf2f744550f50e"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-notes",
+      "title": "mino-notes",
+      "description": "DeepSeek Harness 插件：把用户对话导出为锤子便签（通过便签服务 API 写入云端工作区）。",
+      "homepage": "https://github.com/zhaoolee/notes/tree/main/dsh-plugin#readme",
+      "repository": {
+        "url": "https://github.com/zhaoolee/notes",
+        "directory": "dsh-plugin"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek",
+          "deepseek-harness",
+          "dsh",
+          "dsh-plugin",
+          "smartisan",
+          "notes",
+          "markdown",
+          "ai-agent"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.2",
+          "publishTimestamp": 1793604659,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/notes",
+            "commit": "3a6f9fc7959c37bfaf2c312d53d310802252b5cb"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6"
           }
         }
       ]
@@ -630,6 +824,44 @@
             "type": "git",
             "url": "https://mino.baby/git/open-sea",
             "commit": "5cc36d038c830743c7d54de986a589802200a43c"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-ops",
+      "title": {
+        "en": "dsh-ops",
+        "zh": "dsh-ops"
+      },
+      "description": {
+        "en": "Provides optional Bash and native Rust tools for DSH to improve token efficiency; PowerShell remains host-managed",
+        "zh": "为 DSH 提供可选 Bash 和原生 Rust 工具以提高 token 效率；PowerShell 继续由宿主管理"
+      },
+      "icon": "icons/4e5d6b86d8209e1f.png",
+      "homepage": "https://github.com/T-Auto/dsh-ops#readme",
+      "repository": {
+        "url": "https://github.com/T-Auto/dsh-ops"
+      },
+      "metadata": {
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "deepseek-harness",
+          "repository-tools"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.4.4",
+          "publishTimestamp": 1793604662,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/ops",
+            "commit": "6fc83ce9f6a795bd24ae88f73914273e51c5c5d9"
+          },
+          "engines": {
+            "dsh": ">=0.2.0-rc.2 <0.2.2-0"
           }
         }
       ]
@@ -888,6 +1120,162 @@
       ]
     },
     {
+      "name": "mino-rewind",
+      "title": {
+        "en": "Conversation rewind",
+        "ja": "会話の巻き戻し",
+        "zh": "对话回退"
+      },
+      "description": {
+        "en": "Rewind to an earlier message, optionally restoring workspace files.",
+        "ja": "以前のメッセージまで巻き戻します。ワークスペースのファイルもあわせて復元できます。",
+        "zh": "把对话回退到更早的消息，可选一并还原工作区文件。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8IS0tIExheW91dCBmb2xsb3dzIHRoZSB0ZXJtaW5hbCBjYXJkIGdseXBoIChwYWNrYWdlcy9jbGllbnQvdWktc2lkZWJhci10ZXJtaW5hbCk6CiAgICAgICBhIHJvdW5kZWQgdGlsZSBpbnNldCBmcm9tIHRoZSBjYW52YXMgd2l0aCBhIHdoaXRlIHJvdW5kLWNhcHBlZCBwcm9tcHQuIFRoZQogICAgICAgZmlsbCBmb2xsb3dzIHRoZSBTdWJhZ2VudCBwbHVnaW4gYXJ0d29yawogICAgICAgKHBhY2thZ2VzL2NsaWVudC91aS1wcmltaXRpdmVzL3NyYy9wbHVnaW4tYXJ0d29yay50c3gpLCB3aG9zZSBibHVlIHNxdWFyZQogICAgICAgY2FycmllcyB0aGUgc2FtZSB2ZXJ0aWNhbCBsaWdodC10by1kYXJrIGdyYWRpZW50OiAjNjlCOUZGIGF0IHRoZSB0b3AsCiAgICAgICAjMzI0REUyIGF0IHRoZSBib3R0b20uCiAgICAgICBUaGUgcmV3aW5kIG1hcmsgaXMgdGhlIGluLWFwcCBiYWNrLWFycm93IChzcmMvY2xpZW50L3N0eWxlcy50cywgMTYtdW5pdAogICAgICAgZ3JpZCkgc2NhbGVkIDEuNHguIEl0cyBpbmsgYm94IGluY2x1ZGluZyB0aGUgMC43NSBzdHJva2UgcmVhY2hlcwogICAgICAgKDEuNzUsMS43NSktKDE0LjI1LDEyLjc1KSBvbiB0aGF0IGdyaWQsIHNvIHRoZSB0cmFuc2xhdGUgbGFuZHMgaXRzIGNlbnRyZQogICAgICAgb24gdGhlIHRpbGUgY2VudHJlICgxOCwxOCksIGFuZCB0aGUgaW5rIHNwYW5zIDYyLjUlIG9mIHRoZSB0aWxlIHdpZHRoIOKAlAogICAgICAgdGhlIHRlcm1pbmFsIGdseXBoJ3Mgb3duIHJhdGlvLgogICAgICAgVGhlIGNhbnZhcyBzdGF5cyAzNngzNiwgdGhlIHNpemUgdGhlIGhhcm5lc3MgYW5kIHRoZSBvZmZpY2lhbCBhcnR3b3JrIHVzZSwKICAgICAgIHNvIHRoZSBjb25zdW1lcidzIGBzaXplYCBhdHRyaWJ1dGUga2VlcHMgdGhlIGF1dGhvcml0eSBvdmVyIGRpc3BsYXkgc2l6ZTsKICAgICAgIHRoZSBpbm5lciBncm91cCBzaHJpbmtzIHRoZSBmaW5pc2hlZCBkcmF3aW5nIHRvIDI2LzI4IG9mIHRoZSBjYW52YXMgYXJvdW5kCiAgICAgICBpdHMgY2VudHJlIOKAlCBvbmUgdW5pZm9ybSBzY2FsZSBvdmVyIGNvb3JkaW5hdGVzIHRoYXQgYXJlIGFscmVhZHkgY29ycmVjdCwKICAgICAgIHNvIHRoZSB0aWxlLCBpdHMgcmFkaXVzLCB0aGUgbWFyayBhbmQgdGhlIHN0cm9rZSByYXRpbyBzdGF5IGluIHByb3BvcnRpb24uIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDE4IDE4KSBzY2FsZSgwLjkyODYpIHRyYW5zbGF0ZSgtMTggLTE4KSI+CiAgICA8cmVjdCB4PSI0IiB5PSI0IiB3aWR0aD0iMjgiIGhlaWdodD0iMjgiIHJ4PSI4IiBmaWxsPSJ1cmwoI3Jld2luZF9ibHVlKSIgLz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDYuOCA3Ljg1KSBzY2FsZSgxLjQpIiBzdHJva2U9IiNGRkZGRkYiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiPgogICAgICA8cGF0aCBkPSJNNi41IDIuNSAyLjUgNi41bDQgNCIgLz4KICAgICAgPHBhdGggZD0iTTIuNSA2LjVoN2E0IDQgMCAwIDEgNCA0djEuNSIgLz4KICAgIDwvZz4KICA8L2c+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9InJld2luZF9ibHVlIiB4MT0iMTgiIHkxPSI0IiB4Mj0iMTgiIHkyPSIzMiIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPgogICAgICA8c3RvcCBzdG9wLWNvbG9yPSIjNjlCOUZGIiAvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMzMjRERTIiIC8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KPC9zdmc+Cg==",
+      "homepage": "https://github.com/SiriLee/dsh-rewind#readme",
+      "repository": {
+        "url": "https://github.com/SiriLee/dsh-rewind"
+      },
+      "metadata": {
+        "keywords": [
+          "deepseek-harness",
+          "dsh",
+          "cordis",
+          "plugin",
+          "rewind",
+          "session",
+          "ui"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.19.1",
+          "publishTimestamp": 1793604664,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/rewind",
+            "commit": "f941e5b7ccb2b2cec9306e8791a502294025a69e"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-safety-net",
+      "title": "mino-safety-net",
+      "description": "A coding agent CLI hook - block destructive commands and secret file access",
+      "author": "J Liew",
+      "homepage": "https://ccsafetynet.com",
+      "repository": {
+        "url": "https://github.com/kenryu42/cc-safety-net"
+      },
+      "metadata": {
+        "keywords": [
+          "amp",
+          "claude-code",
+          "cursor",
+          "deepseek-harness",
+          "devin",
+          "devin-cli",
+          "droid",
+          "factory-droid",
+          "grok",
+          "grok-build",
+          "opencode",
+          "pi-package",
+          "plugin",
+          "safety",
+          "security"
+        ]
+      },
+      "versions": [
+        {
+          "version": "2.7.2",
+          "publishTimestamp": 1793604664,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/safety-net",
+            "commit": "7b5e72d7f0cf32858960b5766353a8fce099dc71"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-skill-explorer",
+      "title": {
+        "en": "Skill explorer",
+        "zh": "技能浏览器"
+      },
+      "description": {
+        "en": "Browse, enable and edit skills by source.",
+        "zh": "按来源浏览启停与增删技能"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8cGF0aCBmaWxsPSIjNGQ2YmZlIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0gNjcuNSAxMjAgTCA3MC41IDEyMCBMIDcyLjUgMTIxIEwgODAuNSAxMjkgTCA4MS41IDEyOSBMIDg0LjUgMTMyIEwgODUuNSAxMzIgTCA5MC41IDEzNiBMIDkzLjUgMTM3IEwgOTUuNSAxMzkgTCAxMDEuNSAxNDIgTCAxMDMuNSAxNDIgTCAxMDYuNSAxNDQgTCAxMTEuNSAxNDUgTCAxMTIuNSAxNDYgTCAxMTUuNSAxNDYgTCAxMTkuNSAxNDggUSAxMjIuNzUgMTQ3LjI1IDEyMy41IDE0OSBMIDEyNy41IDE0OSBMIDEyOC41IDE1MCBMIDEzMy41IDE1MCBMIDEzNC41IDE1MSBMIDE0MC41IDE1MSBMIDE0MS41IDE1MiBMIDE1MC41IDE1MiBMIDE1MS41IDE1MyBMIDE2MC41IDE1MyBMIDE2MS41IDE1NCBMIDE3MS41IDE1NCBMIDE3Mi41IDE1NSBMIDE3OC41IDE1NSBMIDE3OS41IDE1NiBRIDE4My41IDE1NSAxODQuNSAxNTcgTCAxODkuNSAxNTcgUSAxOTAuNSAxNTkgMTk0LjUgMTU4IEwgMTk1LjUgMTU5IEwgMTk3LjUgMTU5IEwgMTk4LjUgMTYwIEwgMjAwLjUgMTYwIEwgMjAxLjUgMTYxIEwgMjA2LjUgMTYyIEwgMjA5LjUgMTY0IEwgMjExLjUgMTY0IEwgMjE5LjUgMTY4IEwgMjI0LjUgMTcyIEwgMjI3LjUgMTczIEwgMjQ3IDE5MS41IEwgMjQ3IDE5Mi41IEwgMjUzIDE5OS41IEwgMjU1LjUgMjA0IEwgMjU4IDIwMS41IEwgMjYzIDE5My41IEwgMjcyLjUgMTgzIEwgMjczLjUgMTgzIEwgMjgwLjUgMTc2IEwgMjgxLjUgMTc2IEwgMjkyLjUgMTY4IEwgMzAwLjUgMTY0IEwgMzAyLjUgMTY0IEwgMzA1LjUgMTYyIEwgMzA3LjUgMTYyIEwgMzA4LjUgMTYxIEwgMzEwLjUgMTYxIEwgMzE0LjUgMTU5IEwgMzE3LjUgMTU5IEwgMzE4LjUgMTU4IFEgMzIxLjc1IDE1OC43NSAzMjIuNSAxNTcgTCAzMjYuNSAxNTcgTCAzMjcuNSAxNTYgTCAzMzEuNSAxNTYgTCAzMzIuNSAxNTUgTCAzMzcuNSAxNTUgTCAzMzguNSAxNTQgTCAzNDguNSAxNTQgTCAzNDkuNSAxNTMgTCAzNTguNSAxNTMgTCAzNTkuNSAxNTIgTCAzNjguNSAxNTIgTCAzNjkuNSAxNTEgTCAzNzYuNSAxNTEgTCAzNzcuNSAxNTAgTCAzODMuNSAxNTAgTCAzODQuNSAxNDkgTCAzODguNSAxNDkgTCAzODkuNSAxNDggTCAzOTIuNSAxNDggTCAzOTMuNSAxNDcgTCAzOTYuNSAxNDcgTCAzOTcuNSAxNDYgTCAzOTkuNSAxNDYgTCA0MDAuNSAxNDUgTCA0MDUuNSAxNDQgTCA0MjMuNSAxMzUgTCA0MjYuNSAxMzIgTCA0MzEuNSAxMjkgTCA0MzkuNSAxMjEgTCA0NDEuNSAxMjAgTCA0NDQuNSAxMjAgTCA0NDggMTIzLjUgTCA0NDggMTQwLjUgTCA0NDcgMTQxLjUgTCA0NDcgMTQ5LjUgTCA0NDYgMTUwLjUgTCA0NDYgMTU0LjUgTCA0NDUgMTU1LjUgUSA0NDUuNzUgMTU4Ljc1IDQ0NCAxNTkuNSBMIDQ0NCAxNjMuNSBRIDQ0Mi4yNSAxNjQuMjUgNDQzIDE2Ny41IEwgNDQwIDE3My41IEwgNDM5IDE3OC41IEwgNDM1IDE4NS41IEwgNDM1IDE4Ny41IEwgNDMyIDE5My41IEwgNDMwIDE5NS41IEwgNDI5IDE5OC41IEwgNDI3IDIwMC41IEwgNDI1IDIwNC41IEwgNDE5IDIxMS41IEwgNDE5IDIxMi41IEwgNDAyLjUgMjI5IEwgNDAxLjUgMjI5IEwgMzk0LjUgMjM1IEwgMzkzLjUgMjM1IEwgMzg4LjUgMjM5IEwgMzg1LjUgMjQwIEwgMzgzLjUgMjQyIEwgMzcxLjUgMjQ4IEwgMzY5LjUgMjQ4IEwgMzY0LjUgMjUxIEwgMzYyLjUgMjUxIEwgMzYxLjUgMjUyIEwgMzU5LjUgMjUyIEwgMzU4LjUgMjUzIEwgMzU2LjUgMjUzIEwgMzU1LjUgMjU0IEwgMzUzLjUgMjU0IEwgMzQ5LjUgMjU2IEwgMzQyLjUgMjU3IEwgMzM4LjUgMjU5IEwgMzM1LjUgMjU5IEwgMzM0LjUgMjYwIEwgMzI3LjUgMjYxIEwgMzI2LjUgMjYyIEwgMzI0LjUgMjYyIEwgMzIzLjUgMjYzIEwgMzIxLjUgMjYzIEwgMzIwLjUgMjY0IEwgMzE4LjUgMjY0IEwgMzE3LjUgMjY1IEwgMzEyLjUgMjY2IEwgMzA5LjUgMjY4IEwgMzA3LjUgMjY4IEwgMjk1LjUgMjc1IEwgMjg4IDI4Mi41IFEgMjg3LjUgMjg2IDI4NSAyODcuNSBRIDI4NS41IDI5MCAyODQgMjkwLjUgTCAyODQgMjkzLjUgTCAyODMgMjk0LjUgTCAyODMgMzExLjUgTCAyODQgMzEyLjUgTCAyODQgMzE4LjUgTCAyODUgMzE5LjUgTCAyODUgMzIzLjUgTCAyODYgMzI0LjUgTCAyODYgMzI4LjUgUSAyODggMzI5LjUgMjg3IDMzMy41IEwgMjg4IDMzNC41IEwgMjg4IDMzNy41IEwgMjg5IDMzOC41IEwgMjg5IDM0MS41IEwgMjkwIDM0Mi41IEwgMjkwIDM0NS41IEwgMjkxIDM0Ni41IEwgMjkyIDM1My41IEwgMjkzIDM1NC41IEwgMjkzIDM1Ni41IEwgMjk1IDM2MC41IEwgMjk1IDM2My41IEwgMjk2IDM2NC41IEwgMjk2IDM2Ny41IEwgMjk3IDM2OC41IEwgMjk3IDM3MC41IEwgMjk4IDM3MS41IEwgMjk4IDM3My41IEwgMjk5IDM3NC41IEwgMjk5IDM3Ni41IEwgMzAxIDM4MC41IEwgMzAxIDM4Ni41IEwgMjk4LjUgMzg5IEwgMjk0LjUgMzkxIFEgMjkyIDM5MC41IDI5MS41IDM5MiBMIDI4Ni41IDM5MiBMIDI4NS41IDM5MyBMIDI3Mi41IDM5MyBMIDI3MS41IDM5NCBMIDI0MC41IDM5NCBMIDIzOS41IDM5MyBMIDIyNy41IDM5MyBMIDIyNi41IDM5MiBMIDIyMS41IDM5MiBRIDIyMC43NSAzOTAuMjUgMjE3LjUgMzkxIEwgMjEyIDM4Ny41IEwgMjExIDM4NS41IEwgMjExIDM4MS41IEwgMjEyIDM4MC41IFEgMjExLjUgMzc4IDIxMyAzNzcuNSBMIDIxMyAzNzQuNSBMIDIxNCAzNzMuNSBMIDIxNCAzNzEuNSBMIDIxNiAzNjcuNSBMIDIxNiAzNjQuNSBMIDIxNyAzNjMuNSBMIDIxNyAzNjEuNSBMIDIxOSAzNTcuNSBMIDIxOSAzNTQuNSBMIDIyMSAzNTAuNSBMIDIyMSAzNDcuNSBMIDIyMiAzNDYuNSBMIDIyMiAzNDMuNSBMIDIyMyAzNDIuNSBMIDIyMyAzMzkuNSBMIDIyNCAzMzguNSBMIDIyNCAzMzUuNSBMIDIyNSAzMzQuNSBRIDIyNC4yNSAzMzEuMjUgMjI2IDMzMC41IEwgMjI2IDMyNi41IEwgMjI3IDMyNS41IFEgMjI2IDMyMS41IDIyOCAzMjAuNSBMIDIyOCAzMTUuNSBMIDIyOSAzMTQuNSBMIDIyOSAyOTIuNSBMIDIyOCAyOTEuNSBMIDIyNyAyODYuNSBMIDIyNSAyODQuNSBMIDIyMyAyODAuNSBMIDIxOS41IDI3NyBMIDIxOC41IDI3NyBMIDIxMi41IDI3MiBMIDIwMi41IDI2NyBMIDIwMC41IDI2NyBMIDE5Ny41IDI2NSBMIDE5NC41IDI2NSBMIDE5My41IDI2NCBMIDE5MS41IDI2NCBMIDE5MC41IDI2MyBMIDE4OC41IDI2MyBMIDE4NC41IDI2MSBMIDE4MS41IDI2MSBMIDE4MC41IDI2MCBMIDE3My41IDI1OSBMIDE3Mi41IDI1OCBMIDE3MC41IDI1OCBMIDE2Ni41IDI1NiBMIDE1OS41IDI1NSBMIDE1OC41IDI1NCBMIDE1Ni41IDI1NCBMIDE1NS41IDI1MyBMIDE1MC41IDI1MiBMIDE0Ny41IDI1MCBMIDE0NS41IDI1MCBMIDE0Mi41IDI0OCBMIDE0MC41IDI0OCBMIDEyOC41IDI0MiBMIDEyMy41IDIzOCBMIDEyMC41IDIzNyBMIDEwOS41IDIyOCBMIDEwOC41IDIyOCBMIDk1IDIxNC41IEwgOTUgMjEzLjUgTCA4NyAyMDQuNSBMIDg0IDE5OC41IEwgODIgMTk2LjUgTCA4MCAxOTEuNSBMIDc3IDE4Ny41IEwgNzcgMTg1LjUgTCA3MiAxNzUuNSBMIDcyIDE3My41IEwgNzEgMTcyLjUgTCA3MSAxNzAuNSBMIDY5IDE2Ni41IEwgNjkgMTYzLjUgTCA2OCAxNjIuNSBRIDY4Ljc1IDE1OS4yNSA2NyAxNTguNSBMIDY3IDE1NC41IEwgNjYgMTUzLjUgTCA2NiAxNDguNSBMIDY1IDE0Ny41IEwgNjUgMTM5LjUgTCA2NCAxMzguNSBMIDY0IDEyNC41IEwgNjcuNSAxMjAgWiIvPgo8L3N2Zz4K",
+      "repository": {
+        "url": "https://github.com/zhu1090093659/dsh-web"
+      },
+      "versions": [
+        {
+          "version": "0.4.13",
+          "publishTimestamp": 1793604664,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/skill-explorer",
+            "commit": "642ed71950d7ef571fa771569fc8b49fa6236877"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-skillhub",
+      "title": "mino-skillhub",
+      "description": "Native SkillHub browsing and local skill management for DeepSeek Harness",
+      "homepage": "https://github.com/iflytek/skillhub/tree/main/plugins/dsh#readme",
+      "repository": {
+        "url": "https://github.com/iflytek/skillhub",
+        "directory": "plugins/dsh"
+      },
+      "versions": [
+        {
+          "version": "0.6.1",
+          "publishTimestamp": 1793604665,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/skillhub",
+            "commit": "c9c5ee2e110fa6aaaf57073c19b05342b53dd47e"
+          },
+          "engines": {
+            "dsh": "0.2.0-rc.2 || 0.2.1-rc.2"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-skin-market",
+      "title": "mino-skin-market",
+      "description": "Native skin marketplace and lifecycle manager for DeepSeek Harness",
+      "homepage": "https://kingofsoysauce.github.io/dsh-skin-market/",
+      "repository": {
+        "url": "https://github.com/kingOfSoySauce/dsh-skin-market"
+      },
+      "versions": [
+        {
+          "version": "0.1.72",
+          "publishTimestamp": 1793604665,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/skin-market",
+            "commit": "ed59dfbe415e279a2db3650345764137c38ea71b"
+          }
+        }
+      ]
+    },
+    {
       "name": "mino-speak-up",
       "title": "mino-speak-up",
       "description": "主动搭话（dsh-speak-up）：DSH 插件。没人在跟她说话的时候，她也会自己起个话头 —— 按你设的间隔掷一次本地骰子（不花模型），掷中了就走 DSH 自己的一轮（人格、历史、工具、记忆全都是她自己的）。",
@@ -1007,6 +1395,35 @@
       }
     },
     {
+      "name": "mino-task-board",
+      "title": {
+        "en": "Task Board",
+        "zh": "任务看板"
+      },
+      "description": {
+        "en": "Drag tasks across columns; cron runs them for real.",
+        "zh": "拖拽管理任务并按 Cron 真实执行"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj4KICA8cGF0aCBmaWxsPSIjNGQ2YmZlIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0gNjcuNSAxMjAgTCA3MC41IDEyMCBMIDcyLjUgMTIxIEwgODAuNSAxMjkgTCA4MS41IDEyOSBMIDg0LjUgMTMyIEwgODUuNSAxMzIgTCA5MC41IDEzNiBMIDkzLjUgMTM3IEwgOTUuNSAxMzkgTCAxMDEuNSAxNDIgTCAxMDMuNSAxNDIgTCAxMDYuNSAxNDQgTCAxMTEuNSAxNDUgTCAxMTIuNSAxNDYgTCAxMTUuNSAxNDYgTCAxMTkuNSAxNDggUSAxMjIuNzUgMTQ3LjI1IDEyMy41IDE0OSBMIDEyNy41IDE0OSBMIDEyOC41IDE1MCBMIDEzMy41IDE1MCBMIDEzNC41IDE1MSBMIDE0MC41IDE1MSBMIDE0MS41IDE1MiBMIDE1MC41IDE1MiBMIDE1MS41IDE1MyBMIDE2MC41IDE1MyBMIDE2MS41IDE1NCBMIDE3MS41IDE1NCBMIDE3Mi41IDE1NSBMIDE3OC41IDE1NSBMIDE3OS41IDE1NiBRIDE4My41IDE1NSAxODQuNSAxNTcgTCAxODkuNSAxNTcgUSAxOTAuNSAxNTkgMTk0LjUgMTU4IEwgMTk1LjUgMTU5IEwgMTk3LjUgMTU5IEwgMTk4LjUgMTYwIEwgMjAwLjUgMTYwIEwgMjAxLjUgMTYxIEwgMjA2LjUgMTYyIEwgMjA5LjUgMTY0IEwgMjExLjUgMTY0IEwgMjE5LjUgMTY4IEwgMjI0LjUgMTcyIEwgMjI3LjUgMTczIEwgMjQ3IDE5MS41IEwgMjQ3IDE5Mi41IEwgMjUzIDE5OS41IEwgMjU1LjUgMjA0IEwgMjU4IDIwMS41IEwgMjYzIDE5My41IEwgMjcyLjUgMTgzIEwgMjczLjUgMTgzIEwgMjgwLjUgMTc2IEwgMjgxLjUgMTc2IEwgMjkyLjUgMTY4IEwgMzAwLjUgMTY0IEwgMzAyLjUgMTY0IEwgMzA1LjUgMTYyIEwgMzA3LjUgMTYyIEwgMzA4LjUgMTYxIEwgMzEwLjUgMTYxIEwgMzE0LjUgMTU5IEwgMzE3LjUgMTU5IEwgMzE4LjUgMTU4IFEgMzIxLjc1IDE1OC43NSAzMjIuNSAxNTcgTCAzMjYuNSAxNTcgTCAzMjcuNSAxNTYgTCAzMzEuNSAxNTYgTCAzMzIuNSAxNTUgTCAzMzcuNSAxNTUgTCAzMzguNSAxNTQgTCAzNDguNSAxNTQgTCAzNDkuNSAxNTMgTCAzNTguNSAxNTMgTCAzNTkuNSAxNTIgTCAzNjguNSAxNTIgTCAzNjkuNSAxNTEgTCAzNzYuNSAxNTEgTCAzNzcuNSAxNTAgTCAzODMuNSAxNTAgTCAzODQuNSAxNDkgTCAzODguNSAxNDkgTCAzODkuNSAxNDggTCAzOTIuNSAxNDggTCAzOTMuNSAxNDcgTCAzOTYuNSAxNDcgTCAzOTcuNSAxNDYgTCAzOTkuNSAxNDYgTCA0MDAuNSAxNDUgTCA0MDUuNSAxNDQgTCA0MjMuNSAxMzUgTCA0MjYuNSAxMzIgTCA0MzEuNSAxMjkgTCA0MzkuNSAxMjEgTCA0NDEuNSAxMjAgTCA0NDQuNSAxMjAgTCA0NDggMTIzLjUgTCA0NDggMTQwLjUgTCA0NDcgMTQxLjUgTCA0NDcgMTQ5LjUgTCA0NDYgMTUwLjUgTCA0NDYgMTU0LjUgTCA0NDUgMTU1LjUgUSA0NDUuNzUgMTU4Ljc1IDQ0NCAxNTkuNSBMIDQ0NCAxNjMuNSBRIDQ0Mi4yNSAxNjQuMjUgNDQzIDE2Ny41IEwgNDQwIDE3My41IEwgNDM5IDE3OC41IEwgNDM1IDE4NS41IEwgNDM1IDE4Ny41IEwgNDMyIDE5My41IEwgNDMwIDE5NS41IEwgNDI5IDE5OC41IEwgNDI3IDIwMC41IEwgNDI1IDIwNC41IEwgNDE5IDIxMS41IEwgNDE5IDIxMi41IEwgNDAyLjUgMjI5IEwgNDAxLjUgMjI5IEwgMzk0LjUgMjM1IEwgMzkzLjUgMjM1IEwgMzg4LjUgMjM5IEwgMzg1LjUgMjQwIEwgMzgzLjUgMjQyIEwgMzcxLjUgMjQ4IEwgMzY5LjUgMjQ4IEwgMzY0LjUgMjUxIEwgMzYyLjUgMjUxIEwgMzYxLjUgMjUyIEwgMzU5LjUgMjUyIEwgMzU4LjUgMjUzIEwgMzU2LjUgMjUzIEwgMzU1LjUgMjU0IEwgMzUzLjUgMjU0IEwgMzQ5LjUgMjU2IEwgMzQyLjUgMjU3IEwgMzM4LjUgMjU5IEwgMzM1LjUgMjU5IEwgMzM0LjUgMjYwIEwgMzI3LjUgMjYxIEwgMzI2LjUgMjYyIEwgMzI0LjUgMjYyIEwgMzIzLjUgMjYzIEwgMzIxLjUgMjYzIEwgMzIwLjUgMjY0IEwgMzE4LjUgMjY0IEwgMzE3LjUgMjY1IEwgMzEyLjUgMjY2IEwgMzA5LjUgMjY4IEwgMzA3LjUgMjY4IEwgMjk1LjUgMjc1IEwgMjg4IDI4Mi41IFEgMjg3LjUgMjg2IDI4NSAyODcuNSBRIDI4NS41IDI5MCAyODQgMjkwLjUgTCAyODQgMjkzLjUgTCAyODMgMjk0LjUgTCAyODMgMzExLjUgTCAyODQgMzEyLjUgTCAyODQgMzE4LjUgTCAyODUgMzE5LjUgTCAyODUgMzIzLjUgTCAyODYgMzI0LjUgTCAyODYgMzI4LjUgUSAyODggMzI5LjUgMjg3IDMzMy41IEwgMjg4IDMzNC41IEwgMjg4IDMzNy41IEwgMjg5IDMzOC41IEwgMjg5IDM0MS41IEwgMjkwIDM0Mi41IEwgMjkwIDM0NS41IEwgMjkxIDM0Ni41IEwgMjkyIDM1My41IEwgMjkzIDM1NC41IEwgMjkzIDM1Ni41IEwgMjk1IDM2MC41IEwgMjk1IDM2My41IEwgMjk2IDM2NC41IEwgMjk2IDM2Ny41IEwgMjk3IDM2OC41IEwgMjk3IDM3MC41IEwgMjk4IDM3MS41IEwgMjk4IDM3My41IEwgMjk5IDM3NC41IEwgMjk5IDM3Ni41IEwgMzAxIDM4MC41IEwgMzAxIDM4Ni41IEwgMjk4LjUgMzg5IEwgMjk0LjUgMzkxIFEgMjkyIDM5MC41IDI5MS41IDM5MiBMIDI4Ni41IDM5MiBMIDI4NS41IDM5MyBMIDI3Mi41IDM5MyBMIDI3MS41IDM5NCBMIDI0MC41IDM5NCBMIDIzOS41IDM5MyBMIDIyNy41IDM5MyBMIDIyNi41IDM5MiBMIDIyMS41IDM5MiBRIDIyMC43NSAzOTAuMjUgMjE3LjUgMzkxIEwgMjEyIDM4Ny41IEwgMjExIDM4NS41IEwgMjExIDM4MS41IEwgMjEyIDM4MC41IFEgMjExLjUgMzc4IDIxMyAzNzcuNSBMIDIxMyAzNzQuNSBMIDIxNCAzNzMuNSBMIDIxNCAzNzEuNSBMIDIxNiAzNjcuNSBMIDIxNiAzNjQuNSBMIDIxNyAzNjMuNSBMIDIxNyAzNjEuNSBMIDIxOSAzNTcuNSBMIDIxOSAzNTQuNSBMIDIyMSAzNTAuNSBMIDIyMSAzNDcuNSBMIDIyMiAzNDYuNSBMIDIyMiAzNDMuNSBMIDIyMyAzNDIuNSBMIDIyMyAzMzkuNSBMIDIyNCAzMzguNSBMIDIyNCAzMzUuNSBMIDIyNSAzMzQuNSBRIDIyNC4yNSAzMzEuMjUgMjI2IDMzMC41IEwgMjI2IDMyNi41IEwgMjI3IDMyNS41IFEgMjI2IDMyMS41IDIyOCAzMjAuNSBMIDIyOCAzMTUuNSBMIDIyOSAzMTQuNSBMIDIyOSAyOTIuNSBMIDIyOCAyOTEuNSBMIDIyNyAyODYuNSBMIDIyNSAyODQuNSBMIDIyMyAyODAuNSBMIDIxOS41IDI3NyBMIDIxOC41IDI3NyBMIDIxMi41IDI3MiBMIDIwMi41IDI2NyBMIDIwMC41IDI2NyBMIDE5Ny41IDI2NSBMIDE5NC41IDI2NSBMIDE5My41IDI2NCBMIDE5MS41IDI2NCBMIDE5MC41IDI2MyBMIDE4OC41IDI2MyBMIDE4NC41IDI2MSBMIDE4MS41IDI2MSBMIDE4MC41IDI2MCBMIDE3My41IDI1OSBMIDE3Mi41IDI1OCBMIDE3MC41IDI1OCBMIDE2Ni41IDI1NiBMIDE1OS41IDI1NSBMIDE1OC41IDI1NCBMIDE1Ni41IDI1NCBMIDE1NS41IDI1MyBMIDE1MC41IDI1MiBMIDE0Ny41IDI1MCBMIDE0NS41IDI1MCBMIDE0Mi41IDI0OCBMIDE0MC41IDI0OCBMIDEyOC41IDI0MiBMIDEyMy41IDIzOCBMIDEyMC41IDIzNyBMIDEwOS41IDIyOCBMIDEwOC41IDIyOCBMIDk1IDIxNC41IEwgOTUgMjEzLjUgTCA4NyAyMDQuNSBMIDg0IDE5OC41IEwgODIgMTk2LjUgTCA4MCAxOTEuNSBMIDc3IDE4Ny41IEwgNzcgMTg1LjUgTCA3MiAxNzUuNSBMIDcyIDE3My41IEwgNzEgMTcyLjUgTCA3MSAxNzAuNSBMIDY5IDE2Ni41IEwgNjkgMTYzLjUgTCA2OCAxNjIuNSBRIDY4Ljc1IDE1OS4yNSA2NyAxNTguNSBMIDY3IDE1NC41IEwgNjYgMTUzLjUgTCA2NiAxNDguNSBMIDY1IDE0Ny41IEwgNjUgMTM5LjUgTCA2NCAxMzguNSBMIDY0IDEyNC41IEwgNjcuNSAxMjAgWiIvPgo8L3N2Zz4K",
+      "repository": {
+        "url": "https://github.com/zhu1090093659/dsh-web"
+      },
+      "versions": [
+        {
+          "version": "0.4.13",
+          "publishTimestamp": 1793604665,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/task-board",
+            "commit": "37fa7481541e0c0098160e9719a6ae97f1b65915"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.3"
+          }
+        }
+      ]
+    },
+    {
       "name": "mino-tavern",
       "title": "mino-tavern",
       "description": "Mino SillyTavern-compatible preset: character cards, worldbooks, macros, MVU (fork of dsh-sillytavern)",
@@ -1036,6 +1453,30 @@
             "type": "git",
             "url": "https://mino.baby/git/tavern",
             "commit": "dd5207b890ea1f6aa851818ec0a5c9a5dc1ce614"
+          }
+        }
+      ]
+    },
+    {
+      "name": "mino-visualize",
+      "title": "mino-visualize",
+      "description": "DSH inline visualization plugin: a visualize tool + bundled skill let the model render interactive HTML fragments as sandboxed cards in the conversation (Codex /visualize semantics).",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzYiIGhlaWdodD0iMzYiIHZpZXdCb3g9IjAgMCAzNiAzNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB4PSI3IiB5PSI4IiB3aWR0aD0iMjIiIGhlaWdodD0iMjAiIHJ4PSIzIiBmaWxsPSJ1cmwoI2RzaF92aXN1YWxpemVfaWNvbl9jYXJkKSIgZmlsbC1vcGFjaXR5PSIwLjgiLz48cGF0aCBkPSJNNyAyMkwxMyAxN0wxOCAyMEwyOSAxMVYyNUMyOSAyNi42NiAyNy42NiAyOCAyNiAyOEgxMEM4LjM0IDI4IDcgMjYuNjYgNyAyNVYyMloiIGZpbGw9InVybCgjZHNoX3Zpc3VhbGl6ZV9pY29uX2FyZWEpIiBmaWxsLW9wYWNpdHk9IjAuOSIvPjxwYXRoIGQ9Ik03LjkgMjEuM0wxMyAxN0wxOCAyMEwyOC4yIDExLjciIHN0cm9rZT0iI0ZGRkZGRiIgc3Ryb2tlLXdpZHRoPSIxLjgiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxkZWZzPjxsaW5lYXJHcmFkaWVudCBpZD0iZHNoX3Zpc3VhbGl6ZV9pY29uX2NhcmQiIHgxPSIxOCIgeTE9IjgiIHgyPSIxOCIgeTI9IjI4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzY5QjlGRiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzMyNERFMiIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJkc2hfdmlzdWFsaXplX2ljb25fYXJlYSIgeDE9IjE4IiB5MT0iMTEiIHgyPSIxOCIgeTI9IjI4IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agc3RvcC1jb2xvcj0iIzQ1RTdBNCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzA1OTA5RCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPgo=",
+      "homepage": "https://github.com/Nagi-ovo/dsh-visualize#readme",
+      "repository": {
+        "url": "https://github.com/Nagi-ovo/dsh-visualize"
+      },
+      "versions": [
+        {
+          "version": "0.1.7",
+          "publishTimestamp": 1793604665,
+          "source": {
+            "type": "git",
+            "url": "https://mino.baby/git/visualize",
+            "commit": "4017a42163c61e6c1f29431619afe43f7b68d6cb"
+          },
+          "engines": {
+            "dsh": "^0.1.0-rc.6 || ^0.2.0-rc.1 || ^0.2.1-0"
           }
         }
       ]
@@ -1124,122 +1565,5 @@
         }
       ]
     }
-  ],
-  "metadata": {
-    "categories": {
-      "persona": {
-        "title": {
-          "en": "Persona",
-          "zh-cn": "人格"
-        }
-      },
-      "memory": {
-        "title": {
-          "en": "Memory",
-          "zh-cn": "记忆"
-        }
-      },
-      "channel": {
-        "title": {
-          "en": "Channels",
-          "zh-cn": "渠道"
-        }
-      },
-      "media": {
-        "title": {
-          "en": "Media",
-          "zh-cn": "媒体"
-        }
-      },
-      "roleplay": {
-        "title": {
-          "en": "Roleplay",
-          "zh-cn": "角色扮演"
-        }
-      },
-      "agent": {
-        "title": {
-          "en": "Agents",
-          "zh-cn": "智能体"
-        }
-      },
-      "bilibili": {
-        "title": {
-          "en": "Bilibili",
-          "zh-cn": "B 站"
-        }
-      },
-      "utility": {
-        "title": {
-          "en": "Utility",
-          "zh-cn": "工具"
-        }
-      },
-      "desktop": {
-        "title": {
-          "en": "Desktop",
-          "zh-cn": "桌面"
-        }
-      }
-    },
-    "labels": {
-      "verified": {
-        "title": {
-          "en": "Mino-verified",
-          "zh-cn": "Mino 实测"
-        }
-      },
-      "official": {
-        "title": {
-          "en": "Official",
-          "zh-cn": "官方本体"
-        }
-      },
-      "heavy": {
-        "title": {
-          "en": "Heavy toolset",
-          "zh-cn": "重型工具面"
-        }
-      },
-      "high-risk": {
-        "title": {
-          "en": "High risk",
-          "zh-cn": "高危能力"
-        }
-      },
-      "mutual-qq": {
-        "title": {
-          "en": "QQ channel — pick one",
-          "zh-cn": "QQ 通道互斥"
-        }
-      },
-      "upstream-risk": {
-        "title": {
-          "en": "Upstream issues",
-          "zh-cn": "上游有隐患"
-        }
-      },
-      "needs-config": {
-        "title": {
-          "en": "Needs setup",
-          "zh-cn": "需配置"
-        }
-      },
-      "optional": {
-        "title": {
-          "en": "Optional",
-          "zh-cn": "锦上添花"
-        }
-      }
-    },
-    "sortKeys": {
-      "score": {
-        "title": {
-          "en": "Mino score",
-          "zh-cn": "Mino 评分"
-        },
-        "order": "desc"
-      }
-    }
-  }
+  ]
 }
