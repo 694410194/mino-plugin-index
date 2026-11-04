@@ -17,7 +17,7 @@
           "qq",
           "onebot"
         ],
-        "category": "channel",
+        "category": "conn-im",
         "labels": [
           "verified",
           "mutual-qq",
@@ -329,7 +329,7 @@
           "dsh移动端",
           "手机远程"
         ],
-        "category": "channel",
+        "category": "conn-im",
         "labels": [
           "verified",
           "mutual-qq",
@@ -418,7 +418,7 @@
           "migration",
           "transcript"
         ],
-        "category": "utility",
+        "category": "conn-ai",
         "labels": [
           "verified"
         ],
@@ -679,7 +679,7 @@
           "matrix",
           "ai-office"
         ],
-        "category": "channel",
+        "category": "conn-im",
         "labels": [
           "verified",
           "mutual-qq",
@@ -1436,7 +1436,7 @@
           "qqbot",
           "remote-control"
         ],
-        "category": "channel",
+        "category": "conn-im",
         "labels": [
           "verified",
           "mutual-qq",
@@ -1472,7 +1472,7 @@
           "deepseek-harness",
           "dsh-plugin"
         ],
-        "category": "channel",
+        "category": "conn-im",
         "labels": [
           "verified",
           "mutual-qq",
@@ -1524,7 +1524,7 @@
           "chatbot",
           "im"
         ],
-        "category": "channel",
+        "category": "conn-im",
         "labels": [
           "verified",
           "mutual-qq",
@@ -2631,6 +2631,84 @@
   ],
   "metadata": {
     "categories": {
+      "conn-im": {
+        "title": {
+          "en": "Chat & messaging",
+          "zh-cn": "聊天与消息"
+        }
+      },
+      "conn-social": {
+        "title": {
+          "en": "Social & collections",
+          "zh-cn": "社交与收藏"
+        }
+      },
+      "conn-finance": {
+        "title": {
+          "en": "Bills & finance",
+          "zh-cn": "账单与理财"
+        }
+      },
+      "conn-travel": {
+        "title": {
+          "en": "Travel & places",
+          "zh-cn": "出行足迹"
+        }
+      },
+      "conn-media": {
+        "title": {
+          "en": "Photos & media",
+          "zh-cn": "影音相册"
+        }
+      },
+      "conn-reading": {
+        "title": {
+          "en": "Reading & notes",
+          "zh-cn": "阅读笔记"
+        }
+      },
+      "conn-health": {
+        "title": {
+          "en": "Health records",
+          "zh-cn": "健康档案"
+        }
+      },
+      "conn-mail": {
+        "title": {
+          "en": "Mail & calendar",
+          "zh-cn": "邮件日历"
+        }
+      },
+      "conn-docs": {
+        "title": {
+          "en": "Files & drives",
+          "zh-cn": "文件与网盘"
+        }
+      },
+      "conn-browser": {
+        "title": {
+          "en": "Browser & passwords",
+          "zh-cn": "浏览器与密码"
+        }
+      },
+      "conn-device": {
+        "title": {
+          "en": "Devices & home",
+          "zh-cn": "设备与家居"
+        }
+      },
+      "conn-system": {
+        "title": {
+          "en": "System & legacy",
+          "zh-cn": "系统与数字遗产"
+        }
+      },
+      "conn-ai": {
+        "title": {
+          "en": "AI chat history",
+          "zh-cn": "AI 会话历史"
+        }
+      },
       "persona": {
         "title": {
           "en": "Persona",
@@ -2641,12 +2719,6 @@
         "title": {
           "en": "Memory",
           "zh-cn": "记忆"
-        }
-      },
-      "channel": {
-        "title": {
-          "en": "Channels",
-          "zh-cn": "渠道"
         }
       },
       "media": {
